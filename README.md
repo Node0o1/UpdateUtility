@@ -1,4 +1,4 @@
-# ** UpdateUtility
+# **UpdateUtility**
 
 Driver update for a windows operating system using C++ and the WINAPI. compatible with numerous types of Windows OS. Creates a resotre point then updates all the local drivers in the driverstore directory.
 > Checks to see if system restore is enabled, if not then if enables it.
