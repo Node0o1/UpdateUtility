@@ -20,4 +20,5 @@ Driver update/ install for a windows operating system using C++ and the WINAPI. 
 >
 > Please verify file hash for integrity.
 
-Download the most current version <a href="https://github.com/Node0o1/UpdateUtility/blob/main/executable/Windows_Driver_Update_Utility.exe"> **here** </a>.
+<!-- Download the most current version <a href="https://github.com/Node0o1/UpdateUtility/blob/main/executable/Windows_Driver_Update_Utility.exe"> **here** </a>. -->
+
