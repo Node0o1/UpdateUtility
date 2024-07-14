@@ -1,6 +1,7 @@
 # **UpdateUtility**
 
-Driver update for a windows operating system using C++ and the WINAPI. compatible with numerous types of Windows OS. Creates a resotre point then updates all the local drivers in the driverstore directory.
+Driver update/ install for a windows operating system using C++ and the WINAPI. For any newly installed drivers, be sure to add the .INF file into the C:/Windows/System32/DriverStore if it is not already there. This is the default location for driver configurations on window platforms. Compatible with numerous types of Windows OS. Creates a resotre point then updates all the local drivers in the driverstore directory. Creates a log file of any failed install/updates with the purpose of why within the same directory as the application. This file is overwritten with new data every run so be sure to save any wanted information into desired location and name it appropriately.
+
 > Checks to see if system restore is enabled, if not then if enables it.
 > Once system restore is enabled, then if creates a restore point to revert to in case of error or driver issue.
 > After the restore point has been created, the application will crawl the C:/Windows/System32/DriverStore directory and create a list of all driver configuration files.
