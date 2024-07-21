@@ -14,7 +14,11 @@ Driver update/ install for a windows operating system using C++ and the WINAPI. 
  experience. Read below for detail.
 
 ## Future plans:
-> Microsoft has their own version of what is considered up to date and is not always actually up to date. And anything greater than this service often requires a monthly subscribtion offered by top AV companies. I would like to integrate either a db or dictionary of driver download url's that can map the .INF files found on a device to the url of the driver download.This will  provide the ability to scan the internet for any new drivers from any vendor or third party drivers to ensure the most up to date drivers are installed on your device. A service that often comes with a subscrition from top-tier AV companies. Also, plans to add switches that would disclude the download of any single/multiple drivers. Feel free to message me if you know of any credible resources or would like to get involved with this project.
+> Microsoft has their own version of what is considered up to date and drivers are not always actually up to date. And anything greater than this service often requires a monthly subscribtion offered by top AV companies. I would like to integrate either a db or dictionary of driver download url's that can map the .INF files found on a device to the url of the driver download.This will  provide the ability to scan the internet for any new drivers from any vendor or third party drivers to ensure the most up to date drivers are installed on your device. A service that often comes with a subscrition from top-tier AV companies. Also, plans to add switches that would disclude the download of any single/multiple drivers. Feel free to message me if you know of any credible resources or would like to get involved with this project.
+
+## Build Requirements:
+- C++17 or greater
+- Build with administration privleges
 
 <!-- ## Current exe MD5 file hash:
 > d71a0c19a3f0c26a38ce2eb4cf3f916f
