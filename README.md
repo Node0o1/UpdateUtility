@@ -1,7 +1,7 @@
 # **UpdateUtility**
 #### type: console application 
-### Still a work in progress
-## **Description**
+
+## Description
 Driver update/ install for a windows operating system using C++ and the WINAPI. For any newly installed drivers, be sure to add the .INF file into the C:/Windows/System32/DriverStore if it is not already there. This is the default location for driver configurations on window platforms. Compatible with numerous types of Windows OS. Creates a resotre point then updates all the local drivers in the driverstore directory. Creates a log file of any failed install/updates with the purpose of why within the same directory as the application. This file is overwritten with new data every run so be sure to save any wanted information into desired location and name it appropriately.
 
 ### Process
@@ -11,8 +11,9 @@ Driver update/ install for a windows operating system using C++ and the WINAPI. 
 > This list of configuration files is then ran through the PNPUTIL.exe tool and reinstalls/updates all of the drivers on the system.
 > Failed drivers update/installs will be written to ./Failed-Driver-Installs.txt
 > This application does not download anything. It only installs/ updates local files. This does resolve driver issues.
+##### Still a work in progress
 
-## **About**
+## About
 ### Purpose:
 > This tool will allow users to fix potential driver issues. Near future plans hope to include the most up to date driver software available for your PC to provide a more comprehesive secrity 
  experience. Read below for detail.
